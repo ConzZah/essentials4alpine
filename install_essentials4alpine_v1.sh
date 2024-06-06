@@ -1,7 +1,7 @@
   #==========================================
   # Project: INSTALL_ESSENTIALS4ALPINE_v1.sh
   # Author:  ConzZah / ©️ 2024
-  # Last Modification: 06.06.2024 / 00:27
+  # Last Modification: 06.06.2024 / 12:42
   #==========================================
 clear
 echo "NOTE! PLEASE ENABLE COMMUNITY REPOS FOR THIS TO WORK."; echo ""; echo ""
@@ -17,8 +17,9 @@ echo "- git"
 echo "- openssh"
 echo "- sudo"
 echo "- bash"
+echo "- python3"
 echo ""
 echo "[ PRESS ANY KEY TO START ]"; read -n 1 -s
 doas apk -U upgrade # <-- runs apk update & upgrade before installing anything 
-doas apk add lsblk mount nano ntfs-3g 7zip neofetch curl git openssh sudo bash
+doas apk add lsblk mount nano ntfs-3g 7zip neofetch curl git openssh sudo bash python3
 #   ^  ^  ^  packages to be installed
