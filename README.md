@@ -1,5 +1,7 @@
 # install_essentials4alpine
 
+shell script that installs a list of essential packages on Alpine Linux.
+
 ## Download:
 
 <p> 
