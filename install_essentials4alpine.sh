@@ -19,8 +19,8 @@ echo "- sudo"
 echo "- man-pages, mandoc"
 echo "- bash, bash-completion, bash-doc"
 echo "- python3"
-echo ""
+echo "w3m, w3m-image, w3m-doc"
 echo "[ PRESS ANY KEY TO START ]"; read -n 1 -s
 doas apk -U upgrade # <-- runs apk update & upgrade before installing anything 
-doas apk add lsblk mount nano ntfs-3g 7zip fastfetch curl git openssh sudo man-pages mandoc bash bash-completion bash-doc python3
+doas apk add lsblk mount nano ntfs-3g 7zip fastfetch curl git openssh sudo man-pages mandoc bash bash-completion bash-doc python3 w3m w3m-image w3m-doc
 #   ^  ^  ^  packages to be installed
