@@ -13,9 +13,9 @@ echo "- nano"
 echo "- ntfs-3g"
 echo "- 7zip"
 echo "- fastfetch"
+echo "- ffmpeg"
 echo "- curl" 
 echo "- git"
-echo "- vlc"
 echo "- openssh"
 echo "- sudo"
 echo "- man-pages, mandoc"
@@ -38,5 +38,5 @@ doas ufw default allow outgoing # <-- allow all outgoing traffic
 doas ufw limit SSH  # <-- open SSH port but protect against brute-force login attacks
 doas ufw reload # <-- reload ufw when done & continue
 #########################################
-doas apk add lsblk mount nano ntfs-3g 7zip fastfetch curl git vlc-qt openssh sudo man-pages mandoc bash bash-completion bash-doc python3 w3m w3m-image w3m-doc xz shadow gvfs udisks2
+doas apk add lsblk mount nano ntfs-3g 7zip fastfetch ffmpeg curl git openssh sudo man-pages mandoc bash bash-completion bash-doc python3 w3m w3m-image w3m-doc xz shadow gvfs udisks2
 #   ^  ^  ^  packages to be installed  ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^
