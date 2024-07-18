@@ -2,12 +2,12 @@
 
 <h3 align="center">shell script that installs a list of essential packages on Alpine Linux.</h3>
 
-<h4 align="center">NOTE: IT'S MEANT TO BE USED ON FRESH INSTALLS - YOU HAVE BEEN WARNED.</h4>
+<h4 align="center">NOTE: THIS IS MEANT TO BE USED ON FRESH INSTALLS - YOU HAVE BEEN WARNED.</h4>
 
 <h2 align="center">THIS WILL INSTALL:</h2>
 
 
-- ufw + default rules
+- ufw + default rules ( if you already have ufw rules configured, it will overwrite them. )
 - lsblk
 - mount
 - nano
