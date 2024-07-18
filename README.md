@@ -1,10 +1,10 @@
-<h1 align="center"> install_essentials4alpine </h1>
+<h1 align="center">essentials4alpine</h1>
 
-<h3 align="center"> shell script that installs a list of essential packages on Alpine Linux. </h3>
+<h3 align="center">shell script that installs a list of essential packages on Alpine Linux.</h3>
 
-<h4 align="center"> NOTE: IT'S MEANT TO BE USED ON FRESH INSTALLS - YOU HAVE BEEN WARNED. </h4>
+<h4 align="center">NOTE: IT'S MEANT TO BE USED ON FRESH INSTALLS - YOU HAVE BEEN WARNED.</h4>
 
-<h2 align="center"> THIS WILL INSTALL: </h2>
+<h2 align="center">THIS WILL INSTALL:</h2>
 
 
 - ufw + default rules
@@ -28,7 +28,7 @@
 - gvfs
 - udisks2
 
-<h2 align="center"> Download: </h2>
+<h2 align="center">Download:</h2>
 
 <p align="center"> 
   <a href="https://github.com/ConzZah/install_essentials4alpine/archive/refs/heads/main.zip">
