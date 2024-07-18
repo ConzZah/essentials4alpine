@@ -16,7 +16,7 @@
 - fastfetch
 - curl
 - git
-- vlc-qt
+- ffmpeg
 - openssh
 - sudo
 - man-pages, mandoc
