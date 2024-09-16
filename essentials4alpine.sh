@@ -21,6 +21,7 @@ echo "- sudo"
 echo "- man-pages, mandoc"
 echo "- bash, bash-completion, bash-doc"
 echo "- python3"
+echo "- vlc-qt"
 echo "- w3m, w3m-image, w3m-doc"
 echo "- xz"
 echo "- shadow"
@@ -38,5 +39,5 @@ doas ufw default allow outgoing # <-- allow all outgoing traffic
 doas ufw limit SSH  # <-- open SSH port but protect against brute-force login attacks
 doas ufw reload # <-- reload ufw when done & continue
 #########################################
-doas apk add lsblk mount nano ntfs-3g 7zip fastfetch ffmpeg curl git openssh sudo man-pages mandoc bash bash-completion bash-doc python3 w3m w3m-image w3m-doc xz shadow gvfs udisks2
+doas apk add lsblk mount nano ntfs-3g 7zip fastfetch ffmpeg curl git openssh sudo man-pages mandoc bash bash-completion bash-doc python3 vlc-qt w3m w3m-image w3m-doc xz shadow gvfs udisks2
 #   ^  ^  ^  packages to be installed  ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^  ^  ^   ^
