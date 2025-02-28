@@ -1,32 +1,7 @@
 <h1 align="center">essentials4alpine</h1>
 
-<h3 align="center">shell script that installs a list of essential packages on Alpine Linux.</h3>
+<h3 align="center">simple shell script that installs a list of essential packages on Alpine Linux.</h3>
 
-<h4 align="center">NOTE: THIS IS MEANT TO BE USED ON FRESH INSTALLS - YOU HAVE BEEN WARNED.</h4>
-
-<h2 align="center">THIS WILL INSTALL:</h2>
-
-
-- ufw + default rules ( if you already have ufw rules configured, it will overwrite them. )
-- lsblk
-- mount
-- nano
-- ntfs-3g
-- 7zip
-- fastfetch
-- curl
-- git
-- ffmpeg
-- openssh
-- sudo
-- man-pages, mandoc
-- bash, bash-completion, bash-doc
-- python3
-- w3m, w3m-image, w3m-doc
-- xz
-- shadow
-- gvfs
-- udisks2
 
 <h2 align="center">Download:</h2>
 
