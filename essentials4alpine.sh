@@ -2,10 +2,10 @@
   #==========================================
   # Project: essentials4alpine.sh
   # Author:  ConzZah / ©️ 2025
-  # Last Modification: 02.03.2025 / 18:01
+  # Last Modification: 24.03.2025 / 16:15
   #==========================================
 
-essentials="pciutils grep sed lsblk mount nano htop ntfs-3g 7zip fastfetch ffmpeg wget curl git openssh sudo man-pages mandoc bash bash-completion python3 vlc-qt w3m w3m-image xz shadow gvfs udisks2 android-tools libqrencode-tools docs"
+essentials="pciutils grep sed lsblk mount nano htop ntfs-3g 7zip fastfetch ffmpeg wget curl git openssh sudo man-pages mandoc bash bash-completion python3 mpv w3m w3m-image xz shadow gvfs udisks2 e2fsprogs e2fsprogs-extra android-tools libqrencode-tools docs"
 
 echo -e "\n ~~~ essentials4alpine by ConzZah ~~~\n
 This will install the following packages:\n"
